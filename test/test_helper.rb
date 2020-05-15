@@ -1,4 +1,4 @@
 $LOAD_PATH.unshift File.expand_path("../lib", __dir__)
-require "node_observer"
 
+require_relative "../lib/node_observer"
 require "minitest/autorun"

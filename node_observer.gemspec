@@ -42,9 +42,11 @@ are available at $1, $2, $4, $8, and $16. Greatly appreciated.}
   spec.add_development_dependency 'simplecov', '~> 0'
 
   # Gem specific runtime dependencies.
-  spec.add_runtime_dependency 'observer_comp', '~> 0'
+  spec.add_runtime_dependency 'observer_int', '~> 0'
+  spec.add_runtime_dependency 'observer_impl', '~> 0'
   spec.add_runtime_dependency 'node_observer_int', '~> 0'
   spec.add_runtime_dependency 'node_observer_impl', '~> 0'
-  # spec.add_runtime_dependency 'node'
+  spec.add_runtime_dependency 'node', '~> 4'
+  spec.add_runtime_dependency 'subscription', '~> 0'
 
 end
